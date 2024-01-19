@@ -3,7 +3,7 @@ from utils import timestamp
 
 class PowerSupply:
   """
-  Wrapper low-level interface for a SCPI-controlled power supply, with multiple channels.
+  Partial wrapper for the low-level interface for a SCPI-controlled power supply, with multiple channels.
   FIXME: create a basic class, inherited from all the actual instruments?
   
   Attributes

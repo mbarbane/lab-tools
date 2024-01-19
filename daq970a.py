@@ -7,7 +7,7 @@ import numpy as np
 
 class daq970a:
   """
-  Wrapper low-level interface for the [keysight DAQ970A SCPI commands](https://www.keysight.com/us/en/assets/9018-04756/programming-guides/9018-04756.pdf).
+  Partial wrapper for the low-level interface for the [keysight DAQ970A SCPI commands](https://www.keysight.com/us/en/assets/9018-04756/programming-guides/9018-04756.pdf).
   The config used here is very specific for the TVAC tests for the AMS-L0 upgrade.
   Update the configuration before other usage.
   
