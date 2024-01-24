@@ -57,3 +57,8 @@ Requirements: `sys`, `pyqtgraph`, `time`, `datetime`, `psu`, `utils`, `daq970a`,
 GUI for a generic PSU.
 
 Requirements: `sys`, `pyqtgraph`, `time`, `datetime`, `os`, `psu`, `utils`, `PyQt5`, `matplotlib`
+
+### `dsoShowTrack.py`
+Show a track acquired with the dso class.
+
+Requirements: `numpy`, `matplotlib.pyplot`, `lecroyparses`, `sys`
