@@ -17,6 +17,8 @@ Scripts and utilities to use the instruments and conduct tests
 - Test-Pulse Scan
 - Show DSO tracks
 - TVAC temperature reader
+- ASTRA parameters scan
+- ASTRA parameters scan with fine-tune of the test-pulse amplitude
 
 ## Graphical Interfaces
 GUIs for the instruments and for specific tests
