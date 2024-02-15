@@ -1,4 +1,4 @@
-import tcpServer as tS
+import tcp.tcpServer as tS
 import numpy as np
 import signal
 import sys

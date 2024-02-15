@@ -1,5 +1,5 @@
 import pyvisa
-from psu import PowerSupply
+from lowLevelDrivers.psu import PowerSupply
 
 class ql355tpPsu(PowerSupply):
   """

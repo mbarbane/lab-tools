@@ -2,8 +2,9 @@ import pyvisa
 import re
 import os, sys
 import errno
-from utils import timestamp
 import numpy as np
+
+from lowLevelDrivers.utils import timestamp
 
 class daq970a:
   """

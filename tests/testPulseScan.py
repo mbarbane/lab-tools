@@ -1,8 +1,9 @@
-from dso import dsoClass
-from pulser import pulserClass
 from time import sleep
 import argparse
 import numpy as np
+
+from lowLevelDrivers.dso import dsoClass
+from lowLevelDrivers.pulser import pulserClass
 
 parser = argparse.ArgumentParser(description='Use Tektronix pulser and HD6104 oscilloscope to perform a test-pulse scan')
 parser.add_argument('traceName',

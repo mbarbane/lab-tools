@@ -1,5 +1,5 @@
 import pyvisa
-from utils import timestamp
+from lowLevelDrivers.utils import timestamp
 
 class PowerSupply:
   """

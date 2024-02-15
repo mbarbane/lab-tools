@@ -3,9 +3,9 @@ import pyqtgraph as pg
 import time
 import datetime
 
-from psu import *
-from utils import *
-from daq970a import *
+from lowLevelDrivers.psu import *
+from lowLevelDrivers.utils import *
+from lowLevelDrivers.daq970a import *
 
 from pyqtgraph import GraphicsLayoutWidget
 from pyqtgraph.Qt import QtWidgets, QtCore, QtGui

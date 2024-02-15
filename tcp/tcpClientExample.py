@@ -1,4 +1,4 @@
-import tcpClient as tC
+import tcp.tcpClient as tC
 import numpy as np
 
 tcpClt = tC.tcpClient("localhost", 12345, True)
