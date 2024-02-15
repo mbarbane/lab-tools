@@ -160,7 +160,7 @@ class PowerSupply:
     else:
       raise pyvisa.errors.VisaIOError('PSU not connected')
 
-  def output_on(self, ch: int):
+  def output_on(self, ch:int):
     """
     Enable the output of a single channel
     
@@ -184,7 +184,7 @@ class PowerSupply:
     else:
       raise pyvisa.errors.VisaIOError('PSU not connected')
   
-  def output_off(self, ch: int):
+  def output_off(self, ch:int):
     """
     Disable the output of a single channel
     
@@ -269,7 +269,7 @@ class PowerSupply:
     else:
       raise pyvisa.errors.VisaIOError('PSU not connected')
 
-  def get_voltage(self, ch):
+  def get_voltage(self, ch:int):
     """
     Read voltage value of a single channel
     
