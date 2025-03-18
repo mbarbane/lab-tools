@@ -16,6 +16,11 @@ Show a track acquired with the dso class.
 
 Requirements: `numpy`, `matplotlib.pyplot`, `lecroyparses`, `sys`
 
+## `IV_keithley2470.py`
+Acquire an IV curve with a Keithley 2470 picoamperometer, plot it, and log it.
+
+Requirements: `numpy`, `matplotlib.pyplot`, `sys`, `signal`, `pyvisa`
+
 ## ASTRA tests
 
 ### `AstraParamScan.py`
