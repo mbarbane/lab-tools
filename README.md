@@ -62,3 +62,9 @@ Requirements: `sys`, `pyqtgraph`, `time`, `datetime`, `os`, `psu`, `utils`, `PyQ
 Show a track acquired with the dso class.
 
 Requirements: `numpy`, `matplotlib.pyplot`, `lecroyparses`, `sys`
+
+### `va_gain_scan.py`
+
+Perform a scan of HERD QUADDERS with TCT laser. Controls PAPERO DAQ and TCT motors.
+
+Requirements: `libximc`
